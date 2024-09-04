@@ -1,0 +1,97 @@
+{
+  "description": "Test Renovate",
+  "name": "test/renovate",
+  "repositories": [
+
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^8.5.23",
+    "antecedent/patchwork": "^2.1.25",
+    "behat/behat": "^3.13",
+    "behat/mink": "^1.10",
+    "behat/mink-selenium2-driver": "^1.6",
+    "friends-of-behat/mink-extension": "^2.6",
+    "mikey179/vfsstream": "^1.6.11",
+    "symfony/maker-bundle": "^1.43",
+    "symfony/var-dumper": "5.4.*",
+    "zenstruck/foundry": "^1.21",
+    "symfony/browser-kit": "5.4.*",
+    "symfony/css-selector": "5.4.*",
+    "symfony/phpunit-bridge": "^6.2",
+    "phpstan/phpstan-doctrine": "^1.3"
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-mysqli": "*",
+    "ext-json": "*",
+    "ext-gd": "*",
+    "ext-dom": "*",
+    "ext-curl": "*",
+    "ext-zip": "*",
+    "phpseclib/phpseclib": "~2.0.47",
+    "elasticsearch/elasticsearch": " ~8.0",
+    "viison/address-splitter": "^0.3.2",
+    "aws/aws-php-sns-message-validator": "^1.8.0",
+    "twig/twig": "^3.7",
+    "salsify/json-streaming-parser": "^8.2",
+    "sentry/sdk": "^3.1",
+    "symfony/polyfill-php80": "^1.24",
+    "aws/aws-sdk-php": "^3.281.6",
+    "gmostafa/php-graphql-client": "^1.13",
+    "spatie/guzzle-rate-limiter-middleware": "^2.0",
+    "phpoffice/phpspreadsheet": "^1.29.0",
+    "symfony/rate-limiter": "^5.4",
+    "nesbot/carbon": "^2.60",
+    "symfony/console": "5.4.*",
+    "symfony/dotenv": "5.4.*",
+    "symfony/flex": "^1.17|^2",
+    "symfony/framework-bundle": "5.4.*",
+    "symfony/messenger": "5.4.*",
+    "symfony/proxy-manager-bridge": "5.4.*",
+    "symfony/runtime": "5.4.*",
+    "symfony/yaml": "5.4.*",
+    "symfony/monolog-bundle": "^3.8",
+    "doctrine/annotations": "^1.13",
+    "doctrine/doctrine-bundle": "^2.6",
+    "doctrine/doctrine-migrations-bundle": "^3.2",
+    "doctrine/orm": "^2.11",
+    "predis/predis": "^2.0",
+    "symfony/serializer": "5.4.*",
+    "symfony/validator": "5.4.*",
+    "nelmio/api-doc-bundle": "^4.11",
+    "jms/serializer": "^3.23",
+    "symfony/process": "5.4.*",
+    "tecnickcom/tcpdf": "6.6.2",
+    "setasign/fpdi": "^2.3",
+    "auth0/auth0-php": "^8.3"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Tests\\": "tests/App/",
+      "behat\\": "tests/behat/"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/flex": true,
+      "symfony/runtime": true,
+      "php-http/discovery": false
+    }
+  },
+  "extra": {
+    "symfony": {
+      "docker": false
+    }
+  },
+  "scripts": {
+    "auto-scripts": {
+      "cache:clear": "symfony-cmd",
+      "assets:install %PUBLIC_DIR%": "symfony-cmd"
+    }
+  }
+}
