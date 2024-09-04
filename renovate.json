@@ -3,7 +3,7 @@
     "config:base"
   ],
   "schedule": [
-    "before 6am"
+    
   ],
   "automerge": true,
   "automergeType": "pr",
