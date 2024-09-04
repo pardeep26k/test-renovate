@@ -14,7 +14,7 @@
   "packageRules": [
     {
       "updateTypes": ["minor", "patch"],
-      "automerge": true
+      "automerge": false
     },
     {
       "updateTypes": ["major"],
