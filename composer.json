@@ -28,7 +28,7 @@
     "ext-dom": "*",
     "ext-curl": "*",
     "ext-zip": "*",
-    "phpseclib/phpseclib": "~2.0.47",
+    "phpseclib/phpseclib": "~3.0.0",
     "elasticsearch/elasticsearch": " ~8.0",
     "viison/address-splitter": "^0.3.2",
     "aws/aws-php-sns-message-validator": "^1.8.0",
