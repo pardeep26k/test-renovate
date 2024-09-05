@@ -54,7 +54,7 @@
     "doctrine/annotations": "^1.13",
     "doctrine/doctrine-bundle": "^2.6",
     "doctrine/doctrine-migrations-bundle": "^3.2",
-    "doctrine/orm": "^2.11",
+    "doctrine/orm": "^3.0",
     "predis/predis": "^2.0",
     "symfony/serializer": "5.4.*",
     "symfony/validator": "5.4.*",
