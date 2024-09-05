@@ -39,7 +39,7 @@
     "aws/aws-sdk-php": "^3.281.6",
     "gmostafa/php-graphql-client": "^1.13",
     "spatie/guzzle-rate-limiter-middleware": "^2.0",
-    "phpoffice/phpspreadsheet": "^1.29.0",
+    "phpoffice/phpspreadsheet": "^2.0.0",
     "symfony/rate-limiter": "^5.4",
     "nesbot/carbon": "^2.60",
     "symfony/console": "5.4.*",
