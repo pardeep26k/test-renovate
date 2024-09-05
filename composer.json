@@ -5,7 +5,7 @@
 
   ],
   "require-dev": {
-    "phpunit/phpunit": "^8.5.23",
+    "phpunit/phpunit": "^11.0.0",
     "antecedent/patchwork": "^2.1.25",
     "behat/behat": "^3.13",
     "behat/mink": "^1.10",
