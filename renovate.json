@@ -2,14 +2,11 @@
   "extends": [
     "config:base"
   ],
-  "schedule": [
-    
-  ],
   "automerge": true,
   "automergeType": "pr",
   "automergeStrategy": "branch",
   "labels": ["dependencies"],
-  "prHourlyLimit": 2,
+  "prHourlyLimit": 5,
   "prConcurrentLimit": 10,
   "packageRules": [
     {
