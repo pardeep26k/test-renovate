@@ -34,7 +34,7 @@
     "aws/aws-php-sns-message-validator": "^1.8.0",
     "twig/twig": "^3.7",
     "salsify/json-streaming-parser": "^8.2",
-    "sentry/sdk": "^3.1",
+    "sentry/sdk": "^4.0",
     "symfony/polyfill-php80": "^1.24",
     "aws/aws-sdk-php": "^3.281.6",
     "gmostafa/php-graphql-client": "^1.13",
