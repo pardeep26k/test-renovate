@@ -61,7 +61,7 @@
     "nelmio/api-doc-bundle": "^4.11",
     "jms/serializer": "^3.23",
     "symfony/process": "5.4.*",
-    "tecnickcom/tcpdf": "6.6.2",
+    "tecnickcom/tcpdf": "6.7.6",
     "setasign/fpdi": "^2.3",
     "auth0/auth0-php": "^8.3"
   },
