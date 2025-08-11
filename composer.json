@@ -29,7 +29,7 @@
     "ext-curl": "*",
     "ext-zip": "*",
     "phpseclib/phpseclib": "~2.0.47",
-    "elasticsearch/elasticsearch": " ~8.0",
+    "elasticsearch/elasticsearch": " ~9.0",
     "viison/address-splitter": "^0.3.2",
     "aws/aws-php-sns-message-validator": "^1.8.0",
     "twig/twig": "^3.7",
