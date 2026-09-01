@@ -52,7 +52,7 @@
     "symfony/yaml": "5.4.*",
     "symfony/monolog-bundle": "^3.8",
     "doctrine/annotations": "^1.13",
-    "doctrine/doctrine-bundle": "^2.6",
+    "doctrine/doctrine-bundle": "^3.0",
     "doctrine/doctrine-migrations-bundle": "^3.2",
     "doctrine/orm": "^2.11",
     "predis/predis": "^2.0",
